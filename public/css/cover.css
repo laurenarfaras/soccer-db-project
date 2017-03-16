@@ -6,7 +6,8 @@
 a,
 a:focus,
 a:hover {
-  color: #F87060;
+  color: #0561AE;
+  text-decoration: none;
 }
 
 /* Custom default button */
@@ -83,6 +84,7 @@ body {
 .nav-masthead .nav-link:hover,
 .nav-masthead .nav-link:focus {
   border-bottom-color: rgba(255,255,255,.25);
+  border-bottom-color: #e32230;
 }
 
 .nav-masthead .nav-link + .nav-link {
@@ -90,8 +92,8 @@ body {
 }
 
 .nav-masthead .active {
-  color: #F87060;
-  border-bottom-color: #fff;
+  color: #0561AE;
+  border-bottom-color: #e32230;
 }
 
 @media (min-width: 48em) {
