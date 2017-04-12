@@ -1,6 +1,8 @@
 var express = require("express");
 var server = express();
 
+// oracle 11g dialect = org.hibernate.dialect.Oracle10gDialect
+
 var port = process.env.PORT || 8080;
 
 server.use(express.static(__dirname + "/public"));
